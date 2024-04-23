@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-6</title>
+    <style type="text/css">
+        .menu{
+            width: 1100px;
+            height: 45px;
+            margin: 0 auto;
+        }
+        .menu ul{
+            margin: 0;
+            padding: 0;
+        }
+        .menu ul li{
+            float: left;
+            list-style: none;
+            width: 150px;
+            background-color: brown;
+            margin-right: 15px;
+        }
+        .menu ul li a{
+            height: 33px;
+            padding-top: 12px;
+            display: block;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        .menu ul li a:hover, .active{
+            background-color: #ff2424;
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="css6.html" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
