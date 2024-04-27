@@ -11,6 +11,49 @@
 <title>BTS-2</title>
 </head>
 <body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
+        <a href="#" class="navbar-brand">NavBar Brand</a>
+        <button class="navbar-toggler" data-target="#myMenu" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="bts3.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="carousel slide" id="mySlide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li class="active" data-target="#mySlide" data-slide-to="0"></li>
+            <li data-target="#mySlide" data-slide-to="1"></li>
+            <li data-target="#mySlide" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider_1.jpg" class="w-100" alt="Slide-1">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider_2.jpg" class="w-100" alt="Slide-2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider_3.jpg" class="w-100" alt="Slide-3">
+            </div>
+        </div>
+        <a class="carousel-control-next" type="button" data-target="#mySlide" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        <a class="carousel-control-prev" type="button" data-target="#mySlide" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <section class="card col-4">
@@ -57,6 +100,10 @@
             </section>
         </div>
     </div>
+    <footer class="container-fluid bg-dark text-white p-3">
+        <a href="#" class="text-white"><i class="fab fa-facebook-square fa-3x"></i></a>
+
+    </footer>
 <script src="js/jquery.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.js"></script>
